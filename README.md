@@ -1,64 +1,79 @@
-# Drag and Drop Form Builder
+# 🧩 Drag and Drop Form Builder
 
-A customizable form builder with drag-and-drop functionality built with Next.js, React 19, and dnd-kit.
+A customizable form builder with drag-and-drop functionality, built using **Next.js**, **React 19**, and **dnd-kit**.
 
-## Features
+---
 
-- Drag and drop interface for building forms
-- Multiple field types (text, email, password, telephone, number, select, textarea, etc.)
-- Field customization options
-- Form preview mode
-- Form submission and validation
-- Responsive design
+## ✨ Features
 
-## Getting Started
+- 🖱️ Drag-and-drop interface for building forms
+- 🔧 Supports multiple field types:
+  - Text, Email, Password, Telephone, Number, Select, Textarea, etc.
+- ⚙️ Field customization options
+- 👁️ Form preview mode
+- ✅ Form submission with validation
+- 📱 Fully responsive design
 
-### Prerequisites
+---
 
-- Node.js 18.x or later (required for React 19)
-- npm
+## 🚀 Getting Started
 
-### Installation
+### ✅ Prerequisites
 
-1. Clone the repository:
+- **Node.js** 18.x or later _(required for React 19)_
+- **npm** or **yarn**
+
+### 📦 Installation
+
+1. **Clone the repository**:
 
 ```bash
 git clone https://github.com/lamberto15/drag-and-drop-project.git
-cd drag-drop-form-builder
+cd drag-and-drop-project
 ```
 
-1. Install dependencies:
+2. **Install dependencies**:
 
 ```bash
 npm install
+# or
+yarn
 ```
 
-3. Build the project:
+3. **Build the project**:
 
 ```bash
 npm run build
+# or
+yarn build
 ```
 
-4. Run the development server:
+4. **Start the development server**:
 
 ```bash
 npm run dev
+# or
+yarn dev
 ```
 
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
+5. Open your browser and visit: [http://localhost:3000](http://localhost:3000)
 
-## Usage
+---
 
-1. Drag fields from the "Available Fields" panel to the "Form Fields" panel
-2. Click the settings icon on any field to customize its properties
-3. Use the "Preview Form" button to see how your form will look to users
-4. Submit the form in preview mode to test the submission process
+## 🧪 Usage
 
-## Technologies Used
+1. Drag fields from the **Available Fields** panel into the **Form Fields** panel
+2. Click the ⚙️ **settings** icon on a field to customize its label, type, placeholder, etc.
+3. Click **Preview Form** to see the final output
+4. Submit the form in preview mode to test validation and submission
 
-- Next.js
-- React 19
-- dnd-kit for drag and drop functionality
-- Zustand for state management
-- Tailwind CSS for styling
-- shadcn/ui for UI components
+---
+
+## 🛠️ Tech Stack
+
+- [Next.js](https://nextjs.org/)
+- [React 19](https://react.dev/)
+- [dnd-kit](https://dndkit.com/) – for drag-and-drop functionality
+- [Zustand](https://zustand-demo.pmnd.rs/) – state management
+- [Tailwind CSS](https://tailwindcss.com/) – styling
+- [shadcn/ui](https://ui.shadcn.com/) – modern UI components
