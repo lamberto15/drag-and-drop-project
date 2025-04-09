@@ -22,28 +22,28 @@ A customizable form builder with drag-and-drop functionality built with Next.js,
 
 1. Clone the repository:
 
-\`\`\`bash
+```bash
 git clone https://github.com/lamberto15/drag-and-drop-project.git
 cd drag-drop-form-builder
-\`\`\`
+```
 
 1. Install dependencies:
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 3. Build the project:
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 4. Run the development server:
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application.
 
