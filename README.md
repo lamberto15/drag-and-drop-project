@@ -48,12 +48,12 @@ npm run build
 yarn build
 ```
 
-4. **Start the development server**:
+4. **Start the production server**:
 
 ```bash
-npm run dev
+npm run start
 # or
-yarn dev
+yarn start
 ```
 
 5. Open your browser and visit: [http://localhost:3000](http://localhost:3000)
